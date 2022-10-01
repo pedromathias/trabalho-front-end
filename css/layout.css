@@ -1,0 +1,34 @@
+.layout-rodape {
+  padding: 20px 0;
+  background-color: #181818;
+  color: #E65A00;
+  text-align: left;
+  margin-top: 80px;
+}
+
+.layout-rodape p {
+  margin-left: 50px;
+}
+
+.layout-rodape {
+  padding: 30px 0;
+  background-color: #181818;
+}
+
+.layout-rodape img {
+  display: block;
+  margin: 0px auto;
+  width: 200px;
+  margin-bottom: 10px;
+}
+
+.layout-rodape p {
+  color: #E65A00;
+  text-align: center;
+}
+
+.layout-assinatura {
+  float: left;
+  margin-left: -12%;
+  margin-top: 7%;
+}
