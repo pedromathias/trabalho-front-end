@@ -4,10 +4,10 @@
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script>
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <link rel="shortcut icon" href="/img/logodark.ico" type="image/x-icon">
     <title>bitBeer | cervejaArtesanal</title>
     <link rel="stylesheet" href="css/bootstrap-grid.min.css">
@@ -30,19 +30,24 @@
 
 <body>
     <header class="layout-cabecalho">
+        <div class="container-fluid">
+            <div class="logo-cabecalho">
+                <img src="img/logoDark.png" alt="logo-dark" width="110">
+            </div>
+            <div class="nav">
+                <label for="toggle">☰</label>
+                <input type="checkbox" id="toggle" />
 
-        <div class="logo-cabecalho">
-            <img src="img/logoDark.png" alt="logo-dark" width="110">
-        </div>
-
-        <div id="menu">
-            <ul>
-                <li class="active"><a href="index.html">Home</a></li>
-                <li><a href="sobre-nos.html">Sobre Nós</a></li>
-                <li><a href="#">Nossos Produtos</a></li>
-                <li><a href="#">Carrinho</a></li>
-                <li><a href="contato.html">Entre em Contato</a></li>
-            </ul>
+                <div id="menu">
+                    <ul>
+                        <li class="active"><a href="index.html">Home</a></li>
+                        <li><a href="sobre-nos.html">Sobre Nós</a></li>
+                        <li><a href="#">Nossos Produtos</a></li>
+                        <li><a href="#">Carrinho</a></li>
+                        <li><a href="contato.html">Entre em Contato</a></li>
+                    </ul>
+                </div>
+            </div>
         </div>
     </header>
 
@@ -117,59 +122,6 @@
     <div class="img-contato">
         <img src="img/ezgif.com-gif-maker.gif" alt="contact" width="800" height="475">
     </div>
-
-    <footer id="footer-contato">
-        <div class="container-fluid">
-            <div class="company-details">
-                <div class="row">
-                    <!-- Fileira 1 -->
-                    <div id="col1">
-                        <span id="icon" class="fa fa-phone"></span>
-                        <span>
-                            <strong>Telefone: +55 24 2236-9878</strong>
-                        </span>
-                    </div>
-
-                    <!-- Fileira 2 -->
-                    <div id="col2">
-                        <span id="icon" class="fa fa-map-marker"></span>
-                        <span>
-                            <strong>Rua Do Imp., 350, Centro,
-                                <br> Petrópolis - RJ,
-                                <br>CEP: 25620-000 </strong>
-                        </span>
-
-                    </div>
-                    <!-- Fileira 3-->
-                    <div id="col3">
-                        <span id="icon" class="fa fa-envelope"></span>
-                        <span><strong>codebeer@gmail.com</strong></span>
-                    </div>
-                </div>
-            </div>
-            <!-- Secao do Copyrigh -->
-            <div class="copyright">
-                <img src="img/logoDark.png" alt="logo">
-                <p>DEGUSTE COM MODERAÇÃO :)</p>
-                <p>Não compartilhe este conteúdo com menores de idade.</p>
-                <p>© All rights reserved | CodeBeer.</p>
-                <ul class="contact">
-                    <li>
-                        <a href="https://www.twitter.com" target="_blank" class="fa fa-twitter"></a>
-                    </li>
-                    <li>
-                        <a href="https://facebook.com" target="_blank" class="fa fa-facebook"></a>
-                    </li>
-                    <li>
-                        <a href="https://pinterest.com" target="_blank" class="fa fa-pinterest-p"></a>
-                    </li>
-                </ul>
-            </div>
-
-        </div>
-    </footer>
 </body>
-
-
 
 </html>

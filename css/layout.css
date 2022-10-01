@@ -1,34 +1,79 @@
 .layout-rodape {
-  padding: 20px 0;
-  background-color: #181818;
-  color: #E65A00;
-  text-align: left;
-  margin-top: 80px;
+    padding: 20px 0;
+    background-color: #181818;
+    color: #E65A00;
+    text-align: left;
+    margin-top: 80px;
 }
 
 .layout-rodape p {
-  margin-left: 50px;
+    margin-left: 50px;
 }
 
 .layout-rodape {
-  padding: 30px 0;
-  background-color: #181818;
+    padding: 30px 0;
+    background-color: #181818;
 }
 
 .layout-rodape img {
-  display: block;
-  margin: 0px auto;
-  width: 200px;
-  margin-bottom: 10px;
+    display: block;
+    margin: 0px auto;
+    width: 200px;
+    margin-bottom: 10px;
 }
 
 .layout-rodape p {
-  color: #E65A00;
-  text-align: center;
+    color: #E65A00;
+    text-align: center;
 }
 
 .layout-assinatura {
-  float: left;
-  margin-left: -12%;
-  margin-top: 7%;
+    float: left;
+    margin-left: -12%;
+    margin-top: 7%;
 }
+
+@media (max-width: 1400px){
+    #menu {
+      float: right;
+      width: 100%;
+      margin-top: -7%;
+      margin-right: 100px;
+  }
+  #footer #col1,
+  #footer #col2,
+  #footer #col3{
+    
+    float: left;
+    width: 200px;
+    padding: 0px 40px 0px 40px;
+    margin-left: 180px;
+  }
+  }
+  
+  @media (max-width: 1400px){
+    #menu {
+      float: right;
+      width: 100%;
+      margin-top: -7%;
+      margin-right: 100px;
+  }
+  #footer #col1,
+  #footer #col2,
+  #footer #col3{
+    
+    float: left;
+    width: 200px;
+    padding: 0px 40px 0px 40px;
+    margin-left: 150px;
+  }
+  
+  .principal__titulo{
+    top: 26%;
+  }
+  #col1 strong,
+  #col2 strong,
+  #col3 strong{
+    font-size: 20px;
+  }
+  }
